@@ -1,0 +1,16 @@
+PODS:
+  - ClickButton (0.1.0)
+
+DEPENDENCIES:
+  - ClickButton (from `../`)
+
+EXTERNAL SOURCES:
+  ClickButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ClickButton: 87ee009773326a46e2737616b93374bd8a377659
+
+PODFILE CHECKSUM: c1204564d11f299f08d92c75b4487455597dc7ae
+
+COCOAPODS: 1.11.3

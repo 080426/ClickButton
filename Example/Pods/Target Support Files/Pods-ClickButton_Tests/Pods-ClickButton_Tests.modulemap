@@ -1,0 +1,6 @@
+framework module Pods_ClickButton_Tests {
+  umbrella header "Pods-ClickButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

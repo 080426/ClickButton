@@ -1,0 +1,6 @@
+framework module ClickButton {
+  umbrella header "ClickButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
