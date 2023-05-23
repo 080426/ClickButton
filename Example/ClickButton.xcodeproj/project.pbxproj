@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03EE87D9F0D6A6EF56B4E5CF /* ClickButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ClickButton.podspec; path = ../ClickButton.podspec; sourceTree = "<group>"; };
-		257ED7F13B909D74E76A76E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		03EE87D9F0D6A6EF56B4E5CF /* ClickButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ClickButton.podspec; path = ../ClickButton.podspec; sourceTree = "<group>"; };
+		257ED7F13B909D74E76A76E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		449E1926E1B44B6577EDE8EB /* Pods-ClickButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ClickButton_Tests/Pods-ClickButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ClickButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		8865874FCAC6B1D7B8D502C0 /* Pods_ClickButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48945319284A3B6BEC23B80 /* Pods-ClickButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-ClickButton_Tests/Pods-ClickButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C572C68A96BBA5DFC8860563 /* Pods-ClickButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickButton_Example.release.xcconfig"; path = "Target Support Files/Pods-ClickButton_Example/Pods-ClickButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C9B68B3ADC794D6F21CA1D1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C9B68B3ADC794D6F21CA1D1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E0330428399B423425BEBD6D /* Pods-ClickButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-ClickButton_Example/Pods-ClickButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				449E1926E1B44B6577EDE8EB /* Pods-ClickButton_Tests.debug.xcconfig */,
 				A48945319284A3B6BEC23B80 /* Pods-ClickButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "2285202548@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 93J9Y2U63C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +497,13 @@
 			baseConfigurationReference = E0330428399B423425BEBD6D /* Pods-ClickButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93J9Y2U63C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClickButton/ClickButton-Prefix.pch";
 				INFOPLIST_FILE = "ClickButton/ClickButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CRIOnline.myTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +515,13 @@
 			baseConfigurationReference = C572C68A96BBA5DFC8860563 /* Pods-ClickButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93J9Y2U63C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClickButton/ClickButton-Prefix.pch";
 				INFOPLIST_FILE = "ClickButton/ClickButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CRIOnline.myTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
