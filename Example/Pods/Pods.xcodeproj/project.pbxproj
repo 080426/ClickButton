@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19C2AB8704E9CB393FA5D6E45A34D1FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19C2AB8704E9CB393FA5D6E45A34D1FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B84FAAB6D6597C997A5649B8ACB64B4 /* Pods-ClickButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClickButton_Example-Info.plist"; sourceTree = "<group>"; };
 		21AC00BED2F723FA7B9D241BA3D78DDF /* UIButton+LMJBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LMJBlock.h"; sourceTree = "<group>"; };
 		27020B8F049AD026CF2B9C554B740556 /* ClickButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClickButton; path = ClickButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +48,7 @@
 		439E938EBF7F34CC0B6AAFC02AEFD34B /* UIButton+LMJBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LMJBlock.m"; sourceTree = "<group>"; };
 		6413EB5EACD9FBA4EA7708FDB6DF9643 /* Pods-ClickButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClickButton_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74903F3F5323124D138F87868076E8E7 /* ClickButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClickButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74903F3F5323124D138F87868076E8E7 /* ClickButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ClickButton.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		7944E1E9BFD6F3185388F71B539E60D7 /* Pods-ClickButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClickButton_Example-dummy.m"; sourceTree = "<group>"; };
 		7A006438F1C0FB8E05FB7140448A1407 /* Pods-ClickButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClickButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A23EF8BAEE9BDCCCDBFF5F795539B0F /* Pods-ClickButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClickButton_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -60,12 +60,12 @@
 		9043A912574A9D5E1EEC1E9421C13E80 /* ClickButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClickButton-umbrella.h"; sourceTree = "<group>"; };
 		92009D7C22EA17E3FD195F8D8FD498E6 /* Pods-ClickButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClickButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		98B625A48C6022A7F9AC7E1A0558C391 /* ClickButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClickButton.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B94D39959DC55511403D52039F68E972 /* Pods-ClickButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClickButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD64F8CD0DD97E4F5D0B1F89E63DA207 /* Pods-ClickButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ClickButton_Tests"; path = Pods_ClickButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDA8BB8A93D4F69E8A2BD165E9DC5A4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ClickButton/Classes/README.md; sourceTree = "<group>"; };
+		BDA8BB8A93D4F69E8A2BD165E9DC5A4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ClickButton/Classes/README.md; sourceTree = "<group>"; };
 		C13820E1BEB7501740730D00599ACD41 /* ClickButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClickButton.release.xcconfig; sourceTree = "<group>"; };
-		C94BD3C33C519F05658FD6BA1306350C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C94BD3C33C519F05658FD6BA1306350C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CA25C3A27F7E6CB46799F92B0FDC1E02 /* Pods-ClickButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClickButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA36C718120942C7D5EFD5FFC42E3FC9 /* Pods-ClickButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClickButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CFA4CE59A21F0DBE00BF4E1F8FDE0FCD /* Pods-ClickButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClickButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -543,8 +543,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
