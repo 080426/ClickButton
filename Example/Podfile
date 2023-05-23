@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ClickButton_Example' do
+  pod 'ClickButton', :path => '../'
+
+  target 'ClickButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
